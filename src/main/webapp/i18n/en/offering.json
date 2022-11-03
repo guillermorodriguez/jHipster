@@ -1,0 +1,26 @@
+{
+  "creditApp": {
+    "offering": {
+      "home": {
+        "title": "Offerings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Offering",
+        "createOrEditLabel": "Create or edit a Offering",
+        "notFound": "No Offerings found"
+      },
+      "created": "A new Offering is created with identifier {{ param }}",
+      "updated": "A Offering is updated with identifier {{ param }}",
+      "deleted": "A Offering is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Offering {{ id }}?"
+      },
+      "detail": {
+        "title": "Offering"
+      },
+      "id": "ID",
+      "name": "Name",
+      "rate": "Rate",
+      "startYear": "Start Year"
+    }
+  }
+}

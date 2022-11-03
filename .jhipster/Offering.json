@@ -1,0 +1,28 @@
+{
+  "applications": ["credit"],
+  "changelogDate": "20221103205929",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "offering",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "rate",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "startYear",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Offering",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

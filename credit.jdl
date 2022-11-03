@@ -1,0 +1,22 @@
+application {
+  config {
+    baseName credit
+    applicationType monolith
+    packageName com.samplecompany.credit
+    buildTool maven,
+    testFrameworks []
+  }
+  entities *
+}
+
+entity Credit {
+  name String
+  description String
+  isActive Boolean
+}
+
+entity Offering {
+   name String
+   rate Double
+   startYear Integer
+}
